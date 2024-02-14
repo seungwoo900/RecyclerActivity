@@ -16,6 +16,12 @@ class MainActivity : AppCompatActivity() {
         //Step 2: Provide a LayoutManager
         recyclerView.layoutManager = LinearLayoutManager(this)
 
+        val numbers = IntArray(100)
+        for(i in 1..100) {
+            numbers[i-1] = i;
+        }
+
         //Step 4: Provide a RecyclerView.Adapter
+
     }
 }
