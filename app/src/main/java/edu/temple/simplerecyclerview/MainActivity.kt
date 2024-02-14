@@ -22,6 +22,6 @@ class MainActivity : AppCompatActivity() {
         }
 
         //Step 4: Provide a RecyclerView.Adapter
-
+        recyclerView.adapter = NumberDisplayAdapter(numbers)
     }
 }
